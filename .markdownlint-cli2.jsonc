@@ -1,0 +1,18 @@
+{
+  "config": {
+    "default": true,
+    // Prose and tables read better unwrapped; long lines are not a defect here.
+    "MD013": false,
+    // Repeated headings ("Context", "Decision") are expected across ADR sections.
+    "MD024": { "siblings_only": true },
+    // <br/> is used inside table cells.
+    "MD033": { "allowed_elements": ["br", "details", "summary"] },
+    "MD046": { "style": "fenced" },
+    // Table pipe alignment is cosmetic and fights with editors.
+    "MD060": false,
+    "MD049": { "style": "asterisk" },
+    "MD050": { "style": "asterisk" }
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**"]
+}

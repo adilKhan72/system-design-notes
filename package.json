@@ -1,0 +1,19 @@
+{
+  "name": "system-design-notes",
+  "private": true,
+  "description": "Tooling for linting the write-ups. The content is the Markdown in designs/.",
+  "type": "module",
+  "scripts": {
+    "lint:md": "markdownlint-cli2",
+    "check:mermaid": "node scripts/check-mermaid.mjs",
+    "check": "npm run lint:md && npm run check:mermaid"
+  },
+  "devDependencies": {
+    "jsdom": "25.0.1",
+    "markdownlint-cli2": "0.23.3",
+    "mermaid": "11.17.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

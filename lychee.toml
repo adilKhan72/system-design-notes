@@ -1,0 +1,8 @@
+# Link checker config (lychee). Run locally: lychee --config lychee.toml '**/*.md'
+exclude_path = ["node_modules"]
+include_fragments = "full"
+max_retries = 3
+timeout = 20
+accept = ["200..=299", "429"]
+# Hosts that block bots or rate-limit CI runners aggressively.
+exclude = ["^https://(www\\.)?linkedin\\.com"]
