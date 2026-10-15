@@ -18,8 +18,9 @@ consistent with it.
 | [Lead distribution (ping-post)](designs/lead-distribution-ping-post/README.md) | A real-time lead marketplace: sub-second auctions, buyer caps, effectively-once sales | [lead-routing-engine](https://github.com/adilKhan72/lead-routing-engine) |
 | [Multi-tenant workforce scheduling SaaS](designs/multi-tenant-workforce-scheduling-saas/README.md) | Tenancy models, shift scheduling, time zones and DST, labour-law rules, payroll exports | n/a |
 | [International package forwarding](designs/international-package-forwarding/README.md) | Parcel intake, consolidation, carrier rate shopping, customs data, idempotent label purchase | n/a |
+| [LLM features in production](designs/llm-features-in-production/README.md) | An architect's checklist: providers, structured output, evals, guardrails, PII, cost, fallbacks | [loan-underwriting-ai](https://github.com/adilKhan72/loan-underwriting-ai), [ai-code-review-action](https://github.com/adilKhan72/ai-code-review-action), [rag-docs-assistant](https://github.com/adilKhan72/rag-docs-assistant) |
 
-Write-ups land one pull request at a time. A row links to its design once that design is merged.
+Each write-up landed as its own pull request, so the history shows how each one was reviewed.
 
 ## How each write-up is structured
 
