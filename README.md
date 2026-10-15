@@ -16,7 +16,7 @@ consistent with it.
 |---|---|---|
 | [Loan underwriting platform](designs/loan-underwriting-platform/README.md) | Document AI, a deterministic rules engine, PII redaction, a hash-chained audit trail | [loan-underwriting-ai](https://github.com/adilKhan72/loan-underwriting-ai) |
 | [Lead distribution (ping-post)](designs/lead-distribution-ping-post/README.md) | A real-time lead marketplace: sub-second auctions, buyer caps, effectively-once sales | [lead-routing-engine](https://github.com/adilKhan72/lead-routing-engine) |
-| Multi-tenant workforce scheduling SaaS | Tenancy models, shift scheduling, time zones and DST, labour-law rules, payroll exports | n/a |
+| [Multi-tenant workforce scheduling SaaS](designs/multi-tenant-workforce-scheduling-saas/README.md) | Tenancy models, shift scheduling, time zones and DST, labour-law rules, payroll exports | n/a |
 | International package forwarding | Parcel intake, consolidation, carrier rate shopping, customs data, idempotent label purchase | n/a |
 
 Write-ups land one pull request at a time. A row links to its design once that design is merged.
