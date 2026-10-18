@@ -15,5 +15,9 @@
   },
   "engines": {
     "node": ">=22"
+  },
+  "overrides": {
+    "katex": "^0.18.10",
+    "smol-toml": "^1.9.0"
   }
 }
